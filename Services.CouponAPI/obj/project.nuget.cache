@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "xsXxsLuM0SJgFGKSETv0E3SpWCEhcvm+FL2/IQk+n1VP33yPSNx5fsprpODmJXYlEpzAyZHlioVfUYRgTsMq9g==",
+  "dgSpecHash": "x8UA9gF/3gKAyKy/FYu/MsZ5X4KU0PeA1v5MEz3pkESvdh1DO8hESs26jsMeuMufxH5gJ95Cy4uxu7ibhRpDoQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Mayukh Sinha\\source\\repos\\Microservices\\Mango.Services.CouponAPI\\Services.CouponAPI.csproj",
+  "projectFilePath": "C:\\Users\\Mayukh Sinha\\source\\repos\\Microservices\\Services.CouponAPI\\Services.CouponAPI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\Mayukh Sinha\\.nuget\\packages\\automapper\\12.0.1\\automapper.12.0.1.nupkg.sha512",
     "C:\\Users\\Mayukh Sinha\\.nuget\\packages\\automapper.extensions.microsoft.dependencyinjection\\12.0.1\\automapper.extensions.microsoft.dependencyinjection.12.0.1.nupkg.sha512",

@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Mayukh Sinha\\source\\repos\\Microservices\\Mango.Services.CouponAPI\\Services.CouponAPI.csproj": {}
+    "C:\\Users\\Mayukh Sinha\\source\\repos\\Microservices\\Services.CouponAPI\\Services.CouponAPI.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Mayukh Sinha\\source\\repos\\Microservices\\Mango.Services.CouponAPI\\Services.CouponAPI.csproj": {
+    "C:\\Users\\Mayukh Sinha\\source\\repos\\Microservices\\Services.CouponAPI\\Services.CouponAPI.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Mayukh Sinha\\source\\repos\\Microservices\\Mango.Services.CouponAPI\\Services.CouponAPI.csproj",
+        "projectUniqueName": "C:\\Users\\Mayukh Sinha\\source\\repos\\Microservices\\Services.CouponAPI\\Services.CouponAPI.csproj",
         "projectName": "Services.CouponAPI",
-        "projectPath": "C:\\Users\\Mayukh Sinha\\source\\repos\\Microservices\\Mango.Services.CouponAPI\\Services.CouponAPI.csproj",
+        "projectPath": "C:\\Users\\Mayukh Sinha\\source\\repos\\Microservices\\Services.CouponAPI\\Services.CouponAPI.csproj",
         "packagesPath": "C:\\Users\\Mayukh Sinha\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Mayukh Sinha\\source\\repos\\Microservices\\Mango.Services.CouponAPI\\obj\\",
+        "outputPath": "C:\\Users\\Mayukh Sinha\\source\\repos\\Microservices\\Services.CouponAPI\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\Mayukh Sinha\\AppData\\Roaming\\NuGet\\NuGet.Config",
