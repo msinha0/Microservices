@@ -3,12 +3,10 @@ using Services.CouponAPI.Models;
 using Services.CouponAPI.Models.Dto;
 using Microsoft.AspNetCore.Mvc;
 using AutoMapper;
-using static Azure.Core.HttpHeader;
-using Microsoft.EntityFrameworkCore;
 
 namespace Services.CouponAPI.Controllers
 {
-	[Route("api/[controller]")]
+	[Route("api/coupon")]
 	[ApiController]
 	public class CouponAPIController : ControllerBase
 	{
