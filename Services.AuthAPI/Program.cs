@@ -14,6 +14,8 @@ builder.Services.AddDbContext<AppDbContext>(option =>
     option.EnableSensitiveDataLogging();
 });
 
+builder.Services.Configure<JwtOptions>(builder.Configuration.GetSection("ApiSettings:JwtOptions"));
+
 //AddingIdentityService
 builder.Services.AddIdentity<ApplicationUser, IdentityRole>().AddEntityFrameworkStores<AppDbContext>()
     .AddDefaultTokenProviders();
