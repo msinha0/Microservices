@@ -10,12 +10,14 @@ namespace Services.AuthAPI.Service
     {
 
         private readonly AppDbContext _db;
+        private readonly IJwtTokenGenerator _jwtTokenGenerator;
         private readonly UserManager<ApplicationUser> _userManager;
         private readonly RoleManager<IdentityRole> _roleManager;
 
-        public AuthService(AppDbContext db,  UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
+        public AuthService(AppDbContext db,IJwtTokenGenerator jwtTokenGenerator,  UserManager<ApplicationUser> userManager, RoleManager<IdentityRole> roleManager)
         {
             _db = db;
+            _jwtTokenGenerator = jwtTokenGenerator;
             _userManager = userManager;
             _roleManager = roleManager;
         }
@@ -36,6 +38,7 @@ namespace Services.AuthAPI.Service
             }
 
             // If user found generate the JWT token
+            var token = _jwtTokenGenerator.GenerateToken(user);
 
             UserDto userDto = new()
             {
@@ -48,7 +51,7 @@ namespace Services.AuthAPI.Service
             LoginResponseDto loginResponseDto = new LoginResponseDto()
             {
                 User = userDto,
-                Token = ""
+                Token = token
             };
 
             return loginResponseDto;
