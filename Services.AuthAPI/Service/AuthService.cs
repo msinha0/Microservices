@@ -33,7 +33,7 @@ namespace Services.AuthAPI.Service
                 return new LoginResponseDto()
                 {
                     User = null,
-                    Token = ""
+                    Token = string.Empty
                 };
             }
 
