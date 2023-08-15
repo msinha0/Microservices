@@ -22,7 +22,7 @@ namespace Services.AuthAPI.Service
             _roleManager = roleManager;
         }
 
-        public async Task<bool> AssingRole(string email, string roleName)
+        public async Task<bool> AssignRole(string email, string roleName)
         {
             var user = _db.ApplicationUsers.FirstOrDefault(u => u.UserName.ToLower() == email.ToLower());
             
